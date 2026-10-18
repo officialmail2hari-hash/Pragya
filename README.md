@@ -1,67 +1,60 @@
 # 🤖 Pragya AI
 ### Intelligent Campus Information Assistant
 
-Pragya AI is an AI-powered conversational assistant designed to simplify access to institutional and educational information.
+Pragya AI is an AI-powered conversational assistant designed to make institutional information more accessible through natural-language interactions. It helps users find relevant information about admissions, academic departments, faculty, fees, transportation, research guidance, and campus services.
 
-It provides a conversational interface through which users can ask questions and explore information about academic departments, admissions, faculty, fees, transportation, research guidance, and other institutional services.
-
-The project explores the application of conversational AI and intelligent information retrieval to make information access more intuitive and efficient.
+The project combines conversational AI with intelligent information retrieval to provide a more intuitive way to discover and understand institutional information.
 
 ---
 
 ## ✨ Key Features
 
-### 💬 Conversational Interaction
-- Accepts user questions in natural language.
-- Provides a conversational interface for information discovery.
-- Supports suggested questions and quick actions where implemented.
+### 💬 Conversational AI
+- Understands natural-language questions about institutional information.
+- Provides conversational responses to user queries.
+- Offers suggested questions and quick actions for easier navigation.
 
-### 🏫 Institutional Information Assistance
-Designed to support queries related to:
+### 🏫 Institutional Information
+Pragya AI assists users with information related to:
 - Admissions and academic departments.
-- Faculty and institutional information.
+- Faculty and institutional details.
 - Fees and campus services.
-- Transportation and contact details.
+- Transportation and contact information.
 - Research and Ph.D. guidance.
 
 ### 🧠 Intelligent Query Resolution
-Pragya AI can use information retrieval techniques to identify relevant information for user queries.
-
-Depending on the implementation, this may include:
-- Predefined question matching.
-- Keyword-based information lookup.
-- Semantic search.
-- AI-generated responses using retrieved information.
+- Matches user queries with relevant institutional information.
+- Uses structured information lookup for predefined topics.
+- Applies semantic retrieval to identify relevant information.
+- Generates contextual responses using a Large Language Model (LLM).
 
 ### 🔎 Retrieval-Augmented Generation (RAG)
-Where implemented, RAG can connect a language model with relevant information from an external knowledge source.
+Pragya AI uses Retrieval-Augmented Generation to connect language models with relevant information from a knowledge base.
 
-This approach helps the assistant generate responses using retrieved context rather than relying exclusively on the model's existing knowledge.
+The retrieval process identifies useful context for a user's question, allowing the language model to generate more relevant, information-grounded responses.
 
-### 🔐 Responsible Information Access
-- Prioritizes relevant and reliable information sources.
-- Handles unsupported questions appropriately.
-- Considers data privacy and information access restrictions.
+### ⚡ Interactive User Experience
+- Clean conversational interface.
+- Suggested prompts for common questions.
+- Quick access to frequently requested information.
+- Responsive interface for convenient interaction.
 
 ---
 
 ## ⚙️ How It Works
 
-The conceptual workflow is:
+Pragya AI follows a conversational information-retrieval workflow:
 
-User Query
-    ↓
-Query Processing
-    ↓
-Information Retrieval
-    ↓
-Context Selection
-    ↓
-AI Response Generation
-    ↓
-Response to User
+1. **User Query:** The user asks a question in natural language.
+2. **Query Processing:** The system processes the question to identify the information requested.
+3. **Information Retrieval:** Relevant institutional information is retrieved from available data sources.
+4. **Context Preparation:** Retrieved information is organized to provide context for the response.
+5. **AI Response Generation:** The language model generates a response using the available context.
+6. **Response Delivery:** The answer is presented through the conversational interface.
 
-The actual workflow depends on the components implemented in the project.
+**Workflow:**
+
+`User Query -> Query Processing -> Information Retrieval -> Context Preparation -> LLM Response -> User`
 
 ---
 
@@ -71,35 +64,31 @@ The actual workflow depends on the components implemented in the project.
 |---|---|
 | Programming Language | Python |
 | Backend Framework | FastAPI |
-| AI Integration | Large Language Model APIs |
-| Information Retrieval | Query Matching / RAG |
-| Vector Search | pgvector, if implemented |
-| Database | PostgreSQL, if configured |
+| Artificial Intelligence | Large Language Models (LLMs) |
+| Information Retrieval | Retrieval-Augmented Generation (RAG) |
+| Vector Search | pgvector |
+| Database | PostgreSQL |
 | Version Control | Git, GitHub |
-
-*The technology stack should reflect the tools actually used in the project.*
 
 ---
 
 ## 🎯 Project Objectives
 
 - Simplify access to institutional information.
-- Explore conversational AI for educational environments.
-- Improve information discovery through natural-language interaction.
-- Investigate retrieval-based approaches to question answering.
-- Develop an extensible foundation for AI-assisted information services.
+- Improve information discovery through conversational AI.
+- Provide relevant responses to natural-language questions.
+- Combine information retrieval with language-model capabilities.
+- Explore practical applications of AI in educational environments.
 
 ---
 
-## 🚀 Future Enhancements
+## 🔮 Future Enhancements
 
-Potential enhancements include:
-
-- Improved semantic search and retrieval.
-- Expansion of the institutional knowledge base.
-- Better handling of ambiguous questions.
-- Response evaluation and accuracy testing.
 - Multilingual conversational support.
+- Improved retrieval accuracy and response relevance.
+- Expansion of the institutional knowledge base.
+- Conversation history and personalized interactions.
+- Enhanced evaluation of AI-generated responses.
 - Integration with additional information sources.
 
 ---
@@ -110,7 +99,7 @@ Potential enhancements include:
 - **Category:** Conversational AI Assistant
 - **Domain:** Artificial Intelligence | Natural Language Processing
 - **Application Area:** Institutional Information Assistance
-- **Status:** Under Development
+- **Development Status:** Under Development
 
 ---
 
@@ -120,3 +109,7 @@ Potential enhancements include:
 B.Sc. Data Science
 
 ---
+
+## 📄 License
+
+This project is developed for educational and learning purposes.
